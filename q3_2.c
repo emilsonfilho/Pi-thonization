@@ -4,7 +4,7 @@
 #include <pthread.h>
 
 #define NUM_THERMS 2000000000
-#define NUM_THREADS 16
+#define NUM_THREADS 128
 #define PARTIAL_NUM_THERMS ((NUM_THERMS)/(NUM_THREADS))
 
 double result = 0;
